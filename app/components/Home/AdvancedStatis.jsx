@@ -1,14 +1,15 @@
-import phone1 from "@/public/phone1.png";
+import phone3 from "@/public/phone3.png";
 import { Check } from "lucide-react";
 import Image from "next/image";
 
-export default function Transactions() {
+export default function Advanced() {
   return (
     <div className="container flex gap-[170px] mt-[160px] items-center justify-between ">
       <div className="flex flex-col items-start   ">
-        <h3>Transactions</h3>
+        <h3>Advanced Statistics</h3>
         <h2 className="pt-[8px] py-[16px]">
-          Send & receive <br /> money instantly
+          Keep control <br />
+          over your money
         </h2>
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />{" "}
@@ -39,7 +40,7 @@ export default function Transactions() {
           </div>
         </div>
       </div>
-      <Image className="mr-[111px]" src={phone1} alt="phonecard-image"></Image>
+      <Image className="mr-[111px]" src={phone3} alt="phonecard-image"></Image>
     </div>
   );
 }

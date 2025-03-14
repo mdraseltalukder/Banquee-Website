@@ -10,7 +10,7 @@ export default function Hero() {
         duis ut diam.
       </h4>
       <div className="flex items-center gap-6 mt-6 mb-[152px]">
-        <button className="px-4 py-2 bg-[#5BB5A2] rounded-lg">
+        <button className="px-4 py-2 text-white bg-[#5BB5A2] rounded-lg">
           Open Account
         </button>
         <button className="flex items-center gap-2 text-[#5BB5A2]">
