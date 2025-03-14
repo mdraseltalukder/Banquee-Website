@@ -22,7 +22,7 @@ export default function AllInOneBank() {
             <Image src={card1} alt="card-image" placeholder="blur"></Image>
             <Image src={card2} alt="card-image" placeholder="blur"></Image>{" "}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-3 gap-8">
             <Image src={card3} alt="card-image" placeholder="blur"></Image>
             <Image src={card4} alt="card-image" placeholder="blur"></Image>
             <Image src={card5} alt="card-image" placeholder="blur"></Image>

@@ -5,7 +5,7 @@ import wifi from "@/public/wifi.png";
 import Image from "next/image";
 export default function Choose() {
   return (
-    <div className="flex flex-col gap-24 items-center">
+    <div className="container overflow-hidden flex flex-col gap-24 items-center">
       <div className="mt-40  flex flex-col items-center gap-2">
         <h4>Accounts</h4>
         <h2>Choose your card.</h2>
@@ -14,7 +14,7 @@ export default function Choose() {
           duis ut diam.
         </p>
       </div>
-      <div className="flex gap-24 items-center justify-between">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-center justify-between">
         <div className="flex flex-col items-center justify-center  gap-6">
           <div className="flex items-center gap-2">
             <h4>Basic</h4>

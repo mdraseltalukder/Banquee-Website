@@ -20,7 +20,13 @@
 }
 @layer base {
   .container {
-    @apply max-w-[1200px] mx-auto;
+    @apply max-w-[1200px] mx-auto box-border overflow-hidden;
+  }
+  Link {
+    @apply text-[12px] sm:text-[14px] md:text-[16px];
+  }
+  button {
+    @apply text-[14px] sm:text-[16px] md:text-[18px] font-[500];
   }
 }
 
@@ -53,9 +59,7 @@ h5 {
   font-size: 18px;
   font-weight: 500;
 }
-Link {
-  font-size: 16px;
-}
+
 p {
   font-size: 18px;
   font-weight: 500;
@@ -68,10 +72,6 @@ hr {
   color: #e8e8e8;
 }
 li {
-  font-size: 18px;
-  font-weight: 500;
-}
-button {
   font-size: 18px;
   font-weight: 500;
 }

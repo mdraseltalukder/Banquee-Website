@@ -24,46 +24,46 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="flex items-center justify-between py-6 max-w-[1400px] mx-auto">
-          <h6 className="text-[#5BB5A2] font-[700] text-[32px]">
+        <header className="flex flex-col md:flex-row items-center justify-between py-6 max-w-[1400px] overflow-hidden mx-auto">
+          <h6 className="text-[#5BB5A2] font-[700] text-[24px] md:text-[32px]">
             <Link href="/">banquee.</Link>
           </h6>
-          <div>
-            <ul className="flex items-center gap-4">
-              <li>
-                <Link
-                  className="hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm  duration-500"
-                  href="/feature"
-                >
-                  Feature
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="flex items-center gap-1 hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm duration-500"
-                  href="/compare"
-                >
-                  Compare <IoIosArrowDown />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm duration-500"
-                  href="/support"
-                >
-                  Support
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="flex items-center gap-1 hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm duration-500"
-                  href="/blog"
-                >
-                  Blog <IoIosArrowDown />
-                </Link>
-              </li>
-            </ul>
-          </div>
+
+          <ul className="flex items-center gap-2 md:gap-4">
+            <li>
+              <Link
+                className="hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm  duration-500"
+                href="/feature"
+              >
+                Feature
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="flex items-center gap-1 hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm duration-500"
+                href="/compare"
+              >
+                Compare <IoIosArrowDown />
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm duration-500"
+                href="/support"
+              >
+                Support
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="flex items-center gap-1 hover:bg-[#F8F8F8] active:bg-[#f8f8f8] py-2 px-3 rounded-sm duration-500"
+                href="/blog"
+              >
+                Blog <IoIosArrowDown />
+              </Link>
+            </li>
+          </ul>
+
           <div className="flex items-center gap-6">
             <button className="text-[#5BB5A2]">Login</button>
             <button className="px-4 py-2 text-white bg-[#5BB5A2] rounded-lg">

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Transactions() {
   return (
-    <div className="container flex gap-[170px] mt-[160px] items-center justify-between ">
+    <div className="container  flex-col sm:flex-row  flex gap-[170px] mt-[160px] items-center justify-between ">
       <div className="flex flex-col items-start   ">
         <h3>Transactions</h3>
         <h2 className="pt-[8px] py-[16px]">
