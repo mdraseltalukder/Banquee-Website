@@ -25,8 +25,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header className="flex flex-col md:flex-row items-center justify-between py-6 max-w-[1400px] px-3 lg:px-0 overflow-hidden mx-auto">
-          <h6 className="text-[#5BB5A2] font-[700] text-[24px] md:text-[32px]">
-            <Link href="/">banquee.</Link>
+          <h6 className="text-[#5BB5A2] ">
+            <Link className="font-[700] text-[24px] md:text-[32px]" href="/">
+              banquee.
+            </Link>
           </h6>
 
           <ul className="flex items-center  md:gap-4">
@@ -79,8 +81,10 @@ export default function RootLayout({ children }) {
         <footer className="max-w-[1400px] px-3 lg:px-0 box-border overflow-hidden mx-auto mt-[160px] pb-9">
           <hr />
           <div className=" flex flex-col gap-8 md:flex-row  items-center md:items-start justify-between mb-[80px] mt-[97px]">
-            <h6 className="text-[#5BB5A2] font-[700] text-[32px] flex-2">
-              <Link href="/">banquee.</Link>
+            <h6 className="text-[#5BB5A2]  flex-2">
+              <Link className="font-[700] text-[24px] md:text-[32px]" href="/">
+                banquee.
+              </Link>
             </h6>
 
             <div className="flex flex-col gap-8 flex-1">
