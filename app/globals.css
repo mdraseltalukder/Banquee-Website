@@ -28,6 +28,10 @@
   button {
     @apply text-[14px] sm:text-[16px] md:text-[18px] font-[500];
   }
+  .tab {
+    @apply hover:bg-[#e9e9e9]
+     checked:bg-[#e9e9e9] text-black;
+  }
 }
 
 body {
@@ -63,6 +67,11 @@ h5 {
 p {
   font-size: 18px;
   font-weight: 500;
+}
+TabsTrigger {
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a191e;
 }
 span {
   font-size: 18px;
