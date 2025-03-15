@@ -76,9 +76,9 @@ export default function RootLayout({ children }) {
 
         {/* footer */}
 
-        <footer className="max-w-[1400px] mx-auto mt-[160px] mb-9">
+        <footer className="max-w-[1400px] box-border overflow-hidden mx-auto mt-[160px] pb-9">
           <hr />
-          <div className=" flex  items-start justify-between mb-[80px] mt-[97px]">
+          <div className=" flex flex-col gap-8 md:flex-row  items-center md:items-start justify-between mb-[80px] mt-[97px]">
             <h6 className="text-[#5BB5A2] font-[700] text-[32px] flex-2">
               <Link href="/">banquee.</Link>
             </h6>
