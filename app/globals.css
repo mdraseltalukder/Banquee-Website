@@ -20,10 +20,16 @@
 }
 @layer base {
   .container {
-    @apply max-w-[1200px] mx-auto box-border overflow-hidden;
+    @apply max-w-[1200px] mx-auto box-border overflow-hidden px-3 lg:px-0;
   }
-  Link {
-    @apply text-[12px] sm:text-[14px] md:text-[16px];
+  h1 {
+    @apply text-[60px] md:text-[70px] lg:text-[80px] font-[500];
+  }
+  h2 {
+    @apply text-[46px] md:text-[58px] lg:text-[64px] font-[500];
+  }
+  a {
+    @apply text-[15px] md:text-[16px] font-[500];
   }
   button {
     @apply text-[14px] sm:text-[16px] md:text-[18px] font-[500];
@@ -43,17 +49,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 } */
-h1 {
+/* h1 {
   font-size: 80px;
   font-weight: 500;
   letter-spacing: -3%;
-}
-h2 {
+} */
+/* h2 {
   font-size: 64px;
   font-weight: 500;
   letter-spacing: -3%;
   line-height: 70px;
-}
+} */
 
 h4 {
   font-size: 20px;
@@ -67,11 +73,6 @@ h5 {
 p {
   font-size: 18px;
   font-weight: 500;
-}
-TabsTrigger {
-  font-size: 13px;
-  font-weight: 500;
-  color: #1a191e;
 }
 span {
   font-size: 18px;

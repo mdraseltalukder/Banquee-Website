@@ -39,7 +39,11 @@ export default function ManageCard() {
           </div>
         </div>
       </div>
-      <Image className="mr-[111px]" src={phone2} alt="phonecard-image"></Image>
+      <Image
+        className="lg:mr-[111px]"
+        src={phone2}
+        alt="phonecard-image"
+      ></Image>
     </div>
   );
 }

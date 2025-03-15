@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export default function Compare() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center max-w-[1000px] mx-auto box-border gap-16 mt-24 mb-40">
+      <div className="flex flex-col items-center justify-center max-w-[1000px] px-3 lg:px-0 mx-auto box-border gap-16 mt-24 mb-40">
         <div className="flex flex-col items-center justify-center gap-4 max-w-[1000px] mx-auto box-border">
           <p className="text-[#5BB5A2] bg-[#E8F2EE] py-1 px-2.5 tet-[14px]">
             App

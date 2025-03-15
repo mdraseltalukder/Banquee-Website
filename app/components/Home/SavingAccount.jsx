@@ -40,7 +40,11 @@ export default function Savings() {
           </div>
         </div>
       </div>
-      <Image className="mr-[111px]" src={phone4} alt="phonecard-image"></Image>
+      <Image
+        className="lg:mr-[111px]"
+        src={phone4}
+        alt="phonecard-image"
+      ></Image>
     </div>
   );
 }
